@@ -1,0 +1,10 @@
+Study_1/analysis/results/binding/comparison_fv.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m0_fit_fv.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m1_fit_fv.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m2_fit_fv.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m0_fit_rt.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m1_fit_rt.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m2_fit_rt.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/comparison_rt.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m2_fv_effects.rds filter=lfs diff=lfs merge=lfs -text
+Study_1/analysis/results/binding/m2_rt_effects.rds filter=lfs diff=lfs merge=lfs -text

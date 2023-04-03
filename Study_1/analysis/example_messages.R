@@ -2,11 +2,6 @@ rm(list = ls())
 library(tidyverse)
 library(brms)
 
-# add all foundations! (create new file)
-# write slurm code
-# install r/packages on cluster
-
-
 #check tweets and create 100 examples (all foundations)
 
 

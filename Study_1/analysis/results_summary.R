@@ -13,12 +13,12 @@ results_m2_fv_binding <- readRDS("results/binding/m2_fv_effects.rds") #summarize
 
 #################### Additional Analyses (All moral foundations)
 #### Retweets
-comparison_rt_all <- readRDS("results/full/comparison_rt.rds") #compares models out-of-sample prediction performance
-results_m2_rt_all <- readRDS("results/full/m2_rt_effects.rds") #summarizes results for the main model
+comparison_rt_full <- readRDS("results/full/comparison_rt.rds") #compares models out-of-sample prediction performance
+results_m2_rt_full <- readRDS("results/full/m2_rt_effects.rds") #summarizes results for the main model
 
 #### Favourite count
-comparison_fv_all <- readRDS("results/full/comparison_fv.rds") #compares models out-of-sample prediction performance
-results_m2_fv_all <- readRDS("results/full/m2_fv_effects.rds") #summarizes results for the main model
+comparison_fv_full <- readRDS("results/full/comparison_fv.rds") #compares models out-of-sample prediction performance
+results_m2_fv_full <- readRDS("results/full/m2_fv_effects.rds") #summarizes results for the main model
 
 
 ############## Check inter-correlation of tweet classifier (Are the same tweets classified as binding/individualizing?)
