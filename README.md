@@ -1,6 +1,6 @@
 # Targeting Audiences Moral Values via Moral Framing Increases Spread of Misinformation
 
-This is the repository for the paper X. The repository contains all necessary codes, data, and result files, to replicate the project.
+This is the repository for the paper Moral Alignment Shapes Responses To Shared Content. The repository contains all necessary codes, data, and result files, to replicate the project.
 
 # Code Overview
 ## Study 1
@@ -29,6 +29,7 @@ This is the repository for the paper X. The repository contains all necessary co
 - `run_models.R`: fits statistical models with cleaned data
 - `run_mediation.R`: fits mediation models
 - `results_summary.R`: summarizes model outputs. Creates easy to read tables.
+- `prepare_data_order.R` and `run_models_order.R` prepare and run the additional analyses of stimuli presentation order effects respectively.
 
 # Data Overview
 ## Study 1

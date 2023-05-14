@@ -13,7 +13,7 @@ rm(list = ls())
 # Import ------------------------------------------------------------------
 
   # Import survey data (Qualtrics)
-  dr <- read_csv("../data/raw/qualtrics_export_R.csv")[-1:-2,]
+  dr <- read_csv("../data/raw/qualtrics_export.csv")[-1:-2,]
 
   # Import survey stimuli
   stimuli <- read_csv(
@@ -27,6 +27,7 @@ rm(list = ls())
 
 # Prepare -----------------------------------------------------------------
   # Select variables
+  # use fl19_do to find 1. response -> create data for only 1st, and last ==> compare effect sizes
   dw <- dr %>% 
     select(prolific_pid, exclude, strata, contains("q"), starts_with("s_"), -contains(c("first_click", "last_click")))
   
